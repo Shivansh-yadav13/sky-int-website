@@ -115,7 +115,7 @@ import {
 
 const SmartSaveFeatures = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto py-16 grid grid-cols-1 md:grid-cols-2 gap-32 items-start">
+    <section className="w-full max-w-6xl mx-auto py-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32 items-start">
       <React.Fragment>
         {/* Left: Tag, Title, Desc */}
         <motion.div {...fadeInUp} className="mb-8 md:mb-0 flex flex-col gap-8">
@@ -133,7 +133,7 @@ const SmartSaveFeatures = () => {
           {/* Feature Card */}
           <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6 shadow-sm border border-sky-200">
             <div className="flex flex-col items-center text-center">
-              <div className="flex gap-4 mb-4">
+              <div className="flex flex-wrap justify-center gap-4 mb-4">
                 <div className="flex items-center gap-2">
                   <svg
                     className="w-5 h-5 text-sky-600"
