@@ -6,26 +6,17 @@ import { fadeInUp } from "../lib/motion";
 
 const features = [
   {
-    image:
-      "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=400&q=80",
-    tag: <Tag theme="light">Sports</Tag>,
-    title: "Smart Banking",
-    desc: "Real-time overview of all your business accounts and instant SEPA payments.",
+    image: "/hardware.jpg",
+    tag: <Tag theme="light">Hardware</Tag>,
+    title: "Reliable Computers Accessories",
+    desc: "Business-grade laptops and accessories from trusted brands, delivered ready to use.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-    tag: <Tag theme="light">FinnsPoints</Tag>,
-    title: "FinnsPoints",
-    desc: "Earn points on every business transaction and share across your team.",
+    image: "/software.jpg",
+    tag: <Tag theme="light">Software</Tag>,
+    title: "Softwares That Work",
+    desc: "We turn your idea into a working MVP in weeks—fast, functional, and ready to scale.",
   },
-  // {
-  //   image:
-  //     "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-  //   tag: <Tag theme="light">Food</Tag>,
-  //   title: "AI Split",
-  //   desc: "Multi-department and real-time splitting suggestions based on vendor patterns.",
-  // },
 ];
 
 const FeaturesShowcase = () => {
